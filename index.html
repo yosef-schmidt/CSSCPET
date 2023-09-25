@@ -1,11 +1,80 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Sobre o Clima no Brasil</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 20px;
+        }
+
+        #header {
+            text-align: center;
+            background-color: #007acc;
+            color: #fff;
+            padding: 10px;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            font-weight: bold;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+            margin-bottom: 20px;
+        }
+
+        #content {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .column {
+            flex: 1;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+    </style>
 </head>
 <body>
-    
+    <div id="header">
+        <h1>Sobre o Clima no Brasil</h1>
+    </div>
+
+    <div id="content">
+        <div class="column">
+            <h2>Regiões</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in libero a ligula tincidunt feugiat.</p>
+        </div>
+
+        <div class="column">
+            <h2>Temperaturas</h2>
+            <p>Integer non suscipit justo. Sed auctor dui in nunc aliquam, id aliquet velit tincidunt.</p>
+        </div>
+
+        <div class="column">
+            <h2>Chuvas</h2>
+            <p>Proin congue orci at justo fermentum, vel viverra turpis tempor.</p>
+        </div>
+
+        <div class="column">
+            <h2>Imagens</h2>
+            <img src="Imagens/Captura de tela de 2023-09-25 19-03-23.png" alt="Imagem 1">
+            <img src="Imagens/Captura de tela de 2023-09-25 19-04-46.png" alt="Imagem 2">
+        </div>
+    </div>
 </body>
 </html>
